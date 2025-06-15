@@ -1,6 +1,9 @@
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask import Flask, jsonify
+from .config import Config
+# from server.models import Restaurant, Pizza, RestaurantPizza
+
 
 
 db = SQLAlchemy()
@@ -18,6 +21,9 @@ def create_app():
     @app.route('/')
     def index():
         return jsonify({"message": "Welcome home to the Pizza API!"})
+    
+    from server.models import Restaurant, Pizza, RestaurantPizza
+
                         
 
     return app
