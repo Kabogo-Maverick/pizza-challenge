@@ -23,7 +23,7 @@ This challenge is organized with a standard MVC folder structure inside the `ser
 
 ## Clone the repo
 ```console
-
+https://github.com/Kabogo-Maverick/pizza-challenge.git 
 ```
 
 ## Installing dependencies and activating your virtual environment:
