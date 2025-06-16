@@ -29,26 +29,6 @@ $ pipenv shell
 ```
 
 
-## confirm structure
-.
-├── pizza-api-challenge
-├── README.md
-├── migrations/
-├── server/
-│   ├── app.py
-│   ├── config.py
-│   ├── controllers/
-│   │   ├── __init__.py
-│   │   ├── pizza_controller.py
-│   │   ├── restaurant_controller.py
-│   │   └── restaurant_pizza_controller.py
-│   ├── extensions.py
-│   ├── models/
-│   │   ├── __init__.py
-│   │   ├── pizza.py
-│   │   ├── restaurant.py
-│   │   └── restaurant_pizza.py
-│   └── seed.py
 
 
 
@@ -57,4 +37,4 @@ $ flask db init
 $ flask db migrate -m "Initial migration"
 $ flask db upgrade
 
-## run sed
+## run seed
