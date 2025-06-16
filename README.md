@@ -21,7 +21,12 @@ You’ll define models and relationships, apply validations, build route control
 
 This challenge is organized with a standard MVC folder structure inside the `server` directory.
 
-Begin by installing dependencies and activating your virtual environment:
+## Clone the repo
+```console
+
+```
+
+## Installing dependencies and activating your virtual environment:
 
 ```console
 $ pipenv install
@@ -33,6 +38,7 @@ $ pipenv shell
 
 
 ```console
+$export FLASK_APP=server/app.py
 $ flask db init
 $ flask db migrate -m "Initial migration"
 $ flask db upgrade
