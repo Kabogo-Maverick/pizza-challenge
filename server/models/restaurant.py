@@ -1,4 +1,4 @@
-from server.app import db
+from app import db
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
 
