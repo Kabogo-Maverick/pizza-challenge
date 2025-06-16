@@ -9,14 +9,6 @@
 
 ---
 
-## Introduction
-
-It’s pizza time! In this challenge, you'll implement a fully-functional REST API for a pizza restaurant using Flask and PostgreSQL.
-
-You’ll define models and relationships, apply validations, build route controllers, seed the database, and test it all using Postman.
-
----
-
 ## Setup
 
 This challenge is organized with a standard MVC folder structure inside the `server` directory.
