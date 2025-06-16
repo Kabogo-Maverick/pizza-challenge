@@ -59,5 +59,12 @@ export FLASK_APP=server.app
 flask run
 ````
  
+## viewing the postgresql table
 
+```console
+psql -U maverick -d pizza_db
+```
+view tables;
 
+```console
+\dt
