@@ -1,5 +1,5 @@
-from models import db, Restaurant, Pizza, RestaurantPizza
-from app import create_app
+from server.models import Restaurant, db, Pizza, RestaurantPizza
+from server.app import create_app
 app = create_app()
 
 with app.app_context():

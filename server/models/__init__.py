@@ -1,5 +1,8 @@
-# server/models/__init__.py
+from server.extensions import db
 from .restaurant import Restaurant
 from .pizza import Pizza
 from .restaurant_pizza import RestaurantPizza
-from app import db
+
+__all__ = ['db', 'Restaurant', 'Pizza', 'RestaurantPizza']
+
+
