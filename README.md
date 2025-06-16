@@ -29,12 +29,29 @@ $ pipenv shell
 ```
 
 
-
-
-
 ## Migrate
+
+
+```console
 $ flask db init
 $ flask db migrate -m "Initial migration"
 $ flask db upgrade
+```
 
 ## run seed
+from the root directory:
+
+```console
+python -m server.seed
+````
+
+## run the flask
+from the root directory:
+
+```console
+export FLASK_APP=server.app
+flask run
+````
+ 
+
+
