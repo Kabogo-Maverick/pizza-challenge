@@ -18,7 +18,7 @@ This challenge is organized with a standard MVC folder structure inside the `ser
 https://github.com/Kabogo-Maverick/pizza-challenge.git 
 ```
 
-## Installing dependencies and activating your virtual environment:
+## Installing dependencies and activating your virtual environment
 
 ```console
 $ pipenv install
